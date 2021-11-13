@@ -6,7 +6,9 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "deploy": "gh-pages -d dist",
+    "heroku-postbuil": "npm run build"
   },
   "dependencies": {
     "@nuxt/content": "^1.15.0",
@@ -14,6 +16,7 @@
     "bootstrap-vue": "^2.21.2",
     "core-js": "^3.15.1",
     "date-fns": "^2.25.0",
+    "gh-pages": "^3.2.3",
     "nuxt": "^2.15.7"
   },
   "devDependencies": {
