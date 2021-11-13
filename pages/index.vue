@@ -5,6 +5,7 @@
       {{ article.slug }}
       {{ article.createdAt | formatDate }}
       {{ article.description }}
+      <nuxt-link :to="`/blog/${article.slug}/`"> Learn more </nuxt-link>
     </div>
   </div>
 </template>
